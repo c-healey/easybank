@@ -1,0 +1,66 @@
+.footer {
+  &-container {
+    grid-template-columns: 1fr max-content;
+    align-items: flex-start;
+    color: var(--white);
+    padding: 4rem 0;
+    &-inner {
+      align-items: flex-start;
+      grid-gap: 0 8rem;
+    }
+  }
+
+  &-copyright {
+    &::before {
+      content: "\00A9 ";
+    }
+  }
+  &-menu-1,
+  &-menu-2 {
+    ul {
+      list-style-type: none;
+      padding: 0;
+
+      align-items: flex-start;
+    }
+    ul li {
+      padding: 1rem 0;
+    }
+    ul li a {
+      text-decoration: none;
+      color: var(--white);
+      font-size: 1.35rem;
+    }
+  }
+  &-social {
+    align-content: space-between;
+    align-self: stretch;
+  }
+}
+@include respond(phone) {
+  .footer-container-inner {
+    grid-gap: 0 4rem;
+  }
+}
+@include respond(med-phone) {
+  .col-3 {
+    grid-template-columns: 1fr;
+  }
+  .footer {
+    &-container {
+      grid-template-columns: 1fr;
+      justify-items: center;
+      &-inner {
+        grid-gap: 0 4rem;
+        justify-items: center;
+      }
+    }
+    &-menu-1,
+    &-menu-2 {
+      // justify-items: center;
+      & ul {
+        text-align: center;
+      }
+    }
+  }
+}
