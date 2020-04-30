@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/easybank/static/css/main.841fa360.chunk.css",
+    "main.css": "/easybank/static/css/main.0adec06d.chunk.css",
     "main.js": "/easybank/static/js/main.187bdad9.chunk.js",
     "main.js.map": "/easybank/static/js/main.187bdad9.chunk.js.map",
     "runtime-main.js": "/easybank/static/js/runtime-main.78d8ff86.js",
@@ -8,15 +8,16 @@
     "static/js/2.255e1499.chunk.js": "/easybank/static/js/2.255e1499.chunk.js",
     "static/js/2.255e1499.chunk.js.map": "/easybank/static/js/2.255e1499.chunk.js.map",
     "index.html": "/easybank/index.html",
-    "precache-manifest.7f5eabde71a412120c712b982c123ae3.js": "/easybank/precache-manifest.7f5eabde71a412120c712b982c123ae3.js",
+    "precache-manifest.bd548c2e366aaf1e6c054a3ec1459508.js": "/easybank/precache-manifest.bd548c2e366aaf1e6c054a3ec1459508.js",
     "service-worker.js": "/easybank/service-worker.js",
-    "static/css/main.841fa360.chunk.css.map": "/easybank/static/css/main.841fa360.chunk.css.map",
-    "static/js/2.255e1499.chunk.js.LICENSE.txt": "/easybank/static/js/2.255e1499.chunk.js.LICENSE.txt"
+    "static/css/main.0adec06d.chunk.css.map": "/easybank/static/css/main.0adec06d.chunk.css.map",
+    "static/js/2.255e1499.chunk.js.LICENSE.txt": "/easybank/static/js/2.255e1499.chunk.js.LICENSE.txt",
+    "static/media/main.scss": "/easybank/static/media/bg-intro-desktop.9cea2f98.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.78d8ff86.js",
     "static/js/2.255e1499.chunk.js",
-    "static/css/main.841fa360.chunk.css",
+    "static/css/main.0adec06d.chunk.css",
     "static/js/main.187bdad9.chunk.js"
   ]
 }
